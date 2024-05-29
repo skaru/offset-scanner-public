@@ -7,7 +7,7 @@ DWORD PatternScanner::getOffset(process, *moduleName, *pattern, patternOffset, a
 - *moduleName: Which module needs to be searched
 - *pattern: The pattern
 - patternOffset: specifies the index the offset starts at in the pattern
-- addressOffset: Specifies the offset for a struct/class data memeber
+- addressOffset: Specifies the offset for a struct/class data member
 - options: Should the offset be deferenced and/or should a relative address be returned
 
 Let's say you have process.exe containing module.dll and the memory looks like this:
